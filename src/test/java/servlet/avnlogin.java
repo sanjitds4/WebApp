@@ -16,7 +16,7 @@ public class avnlogin extends HttpServlet {
 	        response.setContentType("text/html;charset=UTF-8");
 	        	        
 	        String username = request.getParameter("username");
-	        String userpassword = request.getParameter("userpassword1");
+	        String userpassword = request.getParameter("userpassword");
 	       	        
 	        if(username.contentEquals(userpassword))
 	        {
